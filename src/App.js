@@ -1,9 +1,19 @@
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className="App">
+       <Router>
+        <Routes>
+          <Route index element={<h1>Index</h1>}></Route>
+          <Route path='movie/:id' element={<h1>Movie Detail</h1>}></Route>
+          <Route path='movies/:type' element={<h1>Movies List pAge</h1>}></Route>
+          <Route path='/*' element={<h1>Error Page</h1>}></Route>
+        </Routes>
+       </Router>
+      </div>
     </>
   );
 }
