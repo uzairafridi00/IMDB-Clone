@@ -23,7 +23,7 @@ function Card({ movie }) {
         </div>
       ) : (
         <Link
-          to={`movie/${movie.id}`}
+          to={`/movie/${movie.id}`}
           style={{ textDecortation: "none", color: "white" }}
         >
           <div className="cards">
