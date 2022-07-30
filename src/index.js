@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
