@@ -1,5 +1,11 @@
 # IMDB Movie Website Clone in Reactjs
 
+## Cloning
+
+1. `git clone https://github.com/uzairafridi00/imdb-clone.git`
+2. Run command `npm install`
+3. Now `npm start` your project.
+
 ### Home Page
 
 ![Home Page](https://github.com/uzairafridi00/imdb-clone/blob/main/images/home.png?raw=true)
