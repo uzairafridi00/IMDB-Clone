@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
     fetch(
-      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.THEMOVIE_API_TOKEN}&language=en-US`
+      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_THEMOVIE_API_TOKEN}&language=en-US`
     )
       .then((res) => res.json())
       .then((data) => setPopularMovies(data.results));
