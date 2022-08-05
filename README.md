@@ -1,5 +1,9 @@
 # IMDB Movie Website Clone in Reactjs
 
+### Site is Live Here :point_down:
+
+## [DEMO](https://effulgent-bunny-d1987e.netlify.app/)
+
 ## Cloning
 
 1. `git clone https://github.com/uzairafridi00/imdb-clone.git`
