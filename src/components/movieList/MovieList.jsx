@@ -4,8 +4,6 @@ import "./MovieList.css";
 
 import { useParams } from "react-router-dom";
 
-import "dotenv/config";
-
 function MovieList() {
   const [movieList, setMovieList] = useState([]);
   const { type } = useParams();
@@ -20,9 +18,9 @@ function MovieList() {
 
   const getData = () => {
     fetch(
-      `https://api.themoviedb.org/3/movie/${type ? type : "popular"}?api_key=${
-        process.env.REACT_APP_THEMOVIE_API_TOKEN
-      }&language=en-US`
+      `https://api.themoviedb.org/3/movie/${
+        type ? type : "popular"
+      }?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`
     )
       .then((res) => res.json())
       .then((data) => setMovieList(data.results));
